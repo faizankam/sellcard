@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.section{
+    width: 100%;
+    height: 7000px;
+    background-size: cover;
+   background-color: rgb(185, 185, 185);
+   text-align: center;
+   align-items: center;
+
+}
+.section h1{
+     text-align: center;
+     color: rgb(7, 43, 71);
+     padding: 25px 0px;
+}
+.org{
+    width: 1170px;
+    margin: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.item{
+     flex-basis: 23%;
+     background-color: aliceblue;
+     margin: 10px 0px;
+     height: 460px;
+     text-align: center;
+     
+}
+.item img{
+    height: 90px;
+    width: 95px;   
+}
+.item p{
+    font-size: 18px;
+    font-weight: 200;
+}
+.item:hover{
+    background-color: rgb(0, 225, 255);
+    color: rgb(155, 0, 129);
+    transform: scale(1.05);
+    transition: transform 0.5s ease-out;
+    
+}
+.read-more-button {
+    background-color: #fa6400;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+     margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+    background-color: #000000;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 886px) {
+    .org {
+       display: inline;
+       height: auto;
+       width: 100%;
+    margin: auto;
+flex-wrap: wrap;
+    }
+    .item{
+        flex-basis: 13%;
+        background-color: rgb(13, 112, 4);
+        margin: 10px;
+        height: auto;
+        text-align: center;
+        color: blanchedalmond;
+ }
+ .read-more-button {
+    background-color: #fa6400;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+     margin-top: 5px;
+    transition: background-color 0.3s ease;
+   
+ }
+}
+@media screen and (min-width: 887px) ,(max-width: 1180) {
+    .org{
+        width: 100%;
+        height: 500px;
+        background-color:  rgb(185, 185, 185);
+    }
+    .item{
+        flex-basis: 23%;
+        background-color: aliceblue;
+        margin: 10px 0px;
+        height: 560px;
+        text-align: center;
+        
+   }
+   .item img{
+       height: 90px;
+       width: 95px;   
+   }
+   .item p{
+       font-size: 18px;
+       font-weight: 200;
+   }
+   .item:hover{
+       background-color: rgb(0, 225, 255);
+       color: rgb(155, 0, 129);
+       
+   }
+   .read-more-button {
+    background-color: #fa6400;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+     margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+    background-color: #000000;
+    color: aliceblue;
+}
+   
+}
